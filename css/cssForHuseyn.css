@@ -1,0 +1,16 @@
+button {
+    background-color: #d354bc;
+    color: white;}
+    h1 {
+    color: #010e13;}
+    h2 {
+    color: #5cc0e8;}
+    li {
+    color: #000102;}
+    body {
+    background-image: url("../images/backroundSakura1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+     text-align: center;
+    
+}
