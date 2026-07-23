@@ -2,26 +2,26 @@
 
 ## Deployment
 
-Bu repository GitHub Pages üzərinə GitHub Actions ilə avtomatik deploy olunur.
+Bu repository GitHub Pages uzerine GitHub Actions ile avtomatik deploy olunur.
 
-Saytın URL formatı:
+Saytin URL formati:
 
 ```text
 https://<github-username>.github.io/<repository-name>/
 ```
 
-`main` branch-ə hər push ediləndə `Deploy static site to GitHub Pages` workflow-u avtomatik işləyir və statik sayt GitHub Pages-ə deploy edilir.
+`master` branch-e her push edilende `Deploy static site to GitHub Pages` workflow-u avtomatik isleyir ve statik sayt GitHub Pages-e deploy edilir.
 
-İlk dəfə GitHub repository-də bu ayarı seçmək lazımdır:
+Ilk defe GitHub repository-de bu ayari secmek lazimdir:
 
 ```text
 Settings -> Pages -> Build and deployment -> Source -> GitHub Actions
 ```
 
-Manual deployment üçün:
+Manual deployment ucun:
 
 ```text
 Actions -> Deploy static site to GitHub Pages -> Run workflow
 ```
 
-Xəta olarsa, GitHub-da repository-nin `Actions` bölməsinə daxil olun, `Deploy static site to GitHub Pages` workflow run-ını açın və uğursuz job/addım loglarına baxın.
+Xeta olarsa, GitHub-da repository-nin `Actions` bolmesine daxil olun, `Deploy static site to GitHub Pages` workflow run-ini acin ve ugursuz job/addim loglarina baxin.
